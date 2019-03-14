@@ -1,7 +1,7 @@
 # node-demo
 一个小型的node-demo编写
-#1.安装json-server  npm install -S json-server
-#2.新建一个 JSON 文件data.json
+1.安装json-server  npm install -S json-server
+2.新建一个 JSON 文件data.json
 {
   "posts": [
     { "id": 1, "title": "json-server", "author": "typicode" }
@@ -11,7 +11,7 @@
   ],
   "profile": { "name": "typicode" }
 }
-#3.npm init -y，生成一个package.json文件，并进行修改，
+3.npm init -y，生成一个package.json文件，并进行修改，
  "scripts": {
 
     "server": "json-server data.json",
@@ -19,5 +19,5 @@
     "test": "..."
 
   },
-  #4.npm run server来启动服务
+  4.npm run server来启动服务
   
